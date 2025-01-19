@@ -7,7 +7,7 @@ import (
 )
 
 func TestBinarySearch(t *testing.T) {
-    nums := []int{1, 2, 3, 4, 5, 6};
+    nums := []int{3, 2, 3, 4, 5, 6};
     target := 4;
 
     index := code.BinarySearch(nums, target);
